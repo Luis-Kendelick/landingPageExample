@@ -2,8 +2,9 @@ import React from 'react';
 import { render } from 'react-dom';
 
 import App from './App';
+import Fabbutton from './components/Header';
 
-render(<h1>Hello World</h1>, document.getElementById('app'));
+render(<Fabbutton />, document.getElementById('app'));
 
 // const soma = (a, b) => {
 //     return a + b;
